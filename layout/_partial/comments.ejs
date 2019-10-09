@@ -4,4 +4,8 @@
             <noscript><%= __('comments.no_js') %></noscript>
         </div>
     </div>
+<% } else if(theme.utterances.enable) { %>
+    <div class="comments" id="comments">
+        <% include ./_third-party/comments/utterances %>
+    </div>
 <% } %>

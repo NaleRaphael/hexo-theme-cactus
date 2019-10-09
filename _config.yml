@@ -134,6 +134,14 @@ disqus:
   enabled: false
   shortname: cactus-1
 
+# utterances
+utterances:
+  enable: false
+  repo:
+  issue_term: pathname
+  label: Comment
+  theme: github-light
+
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
   enabled: false
