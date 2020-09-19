@@ -35,6 +35,10 @@
           <% } %>
         <% } %>
     <% } %>
+    <!-- google site verification -->
+    <% if (theme.google_site_verification) { %>
+    <meta name="google-site-verification" content="<%= theme.google_site_verification.value %>">
+    <% } %>
     <!-- title -->
     <title><%= page_title() %></title>
     <!-- styles -->

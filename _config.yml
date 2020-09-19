@@ -156,3 +156,7 @@ baidu_analytics:
 # logo and/or favicons of you website.
 gravatar:
   email: name@email.com
+
+google_site_verification:
+  enabled: false
+  value:
